@@ -1,0 +1,16 @@
+.footer {
+  padding: 1rem;
+  background-color: #4a4a8a;
+  color: white;
+  text-align: center;
+}
+
+.footer .social-links a {
+  color: white;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+.footer .social-links a:hover {
+  text-decoration: underline;
+}

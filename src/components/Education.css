@@ -1,0 +1,13 @@
+.education-section {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.education-section h2 {
+  color: #4a4a8a;
+}
+
+.education-section p {
+  color: #555;
+}
