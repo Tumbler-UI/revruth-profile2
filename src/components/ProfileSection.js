@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../components/Images/RevRuth.png";
+import profile from "../components/Images/DSC09911.JPG";
 import "./ProfileSection.css";
 
 const ProfileSection = () => {
