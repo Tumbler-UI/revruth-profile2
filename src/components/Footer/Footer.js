@@ -1,14 +1,13 @@
 import React from "react";
 import "./Footer.css";
 
-const Footer = () => (
-  <footer className="footer">
-    <p>&copy; 2024 Rev. Ruth Muita. All Rights Reserved.</p>
-    <div className="social-links">
-      <a href="facebook.com">Facebook</a>
-      <a href="x.com">Twitter</a>
-    </div>
-  </footer>
-);
+const Footer = () => {
+  return (
+    <footer className="footer">
+      <p>&copy; {new Date().getFullYear()} RevRuthMuitaMinistries. All rights reserved.</p>
+    </footer>
+  );
+};
 
 export default Footer;
+

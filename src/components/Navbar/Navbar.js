@@ -16,9 +16,10 @@ const Navbar = () => (
 
     <div className="nav-bottom">
       <ul className="nav-links">
-        <li><a href="#service">Services</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#About">Her-Journey</a></li>
+        <li><a href="#Gallery">Gallery</a></li>
+        <li><a href="#Services">Counsel & Care</a></li>
+
       </ul>
     </div>
   </div>
