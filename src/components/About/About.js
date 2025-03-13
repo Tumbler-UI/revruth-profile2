@@ -1,19 +1,19 @@
 import React from "react";
 import "./About.css";
+import profileImg from "../Images/DEN_2912.JPG"; // Ensure this path is correct
 
 const About = () => {
   return (
-    <section className="about">
-      <h2>Meet Rev. Ruth</h2>
-      <p>
-        Rev. Ruth Muita is dedicated to serving both the church and the community. As a Reverend at ACK Syokimau, she provides spiritual leadership and guidance.  
-      </p>
-      <p>
-        Passionate about mental health, she founded **Eremia Psychotherapy** in 2024, offering therapy and counseling services at Office 210, Rosslyn Mall.  
-      </p>
-      <p>
-        She also leads **Destiny Echo Youth Band**, inspiring young people through music and faith.
-      </p>
+    <section id="about" className="about">
+      <div className="about-text">
+        <h2>Meet Rev. Ruth</h2>
+        <p>Rev. Ruth Muita, a leader at ACK Syokimau, guides in faith, mental health, and youth mentorship.</p>
+        <p><strong>Founder:</strong> Eremia Psychotherapy, 2024</p>
+        <p><strong>Location:</strong> <a href='https://maps.app.goo.gl/GzqV7AvjwQpd1ipm7' >Office 210, Rosslyn Mall</a></p>
+      </div>
+      <div className="about-image">
+        <img src={profileImg} alt="Rev. Ruth Muita" />
+      </div>
     </section>
   );
 };
