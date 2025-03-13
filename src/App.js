@@ -1,20 +1,14 @@
-import Navbar from "./components/Navbar";
 import React from "react";
-import ProfileSection from "./components/ProfileSection";
-import Ministry from "./components/MInistry";
-import Education from "./components/Education";
-
+import Navbar from "./components/Navbar/Navbar";
 
 
 const App = () => {
   return (
-    <>
+    <div>
       <Navbar />
-      <ProfileSection />
-      <Ministry/>
-      <Education/>
-    </>
+    </div>
   );
 };
 
 export default App;
+
