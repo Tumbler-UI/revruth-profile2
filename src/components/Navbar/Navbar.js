@@ -6,7 +6,7 @@ const Navbar = () => (
   <div className="navbar">
     <div className="nav-top">
       <div className="nav-profile" style={{ flex: 1 }}>
-        <image src={profileImg} alt="Profile Picture" className="nav-profile-pic" />
+        <img src={profileImg} alt="profile" />
       </div>
       <div className="nav-text" style={{ flex: 2 }}>
         <h1>Rev. Ruth Muita</h1>
