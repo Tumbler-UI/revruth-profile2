@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "./Navbar.css";
 import profileImg from "../Images/revruth2.jpg"; 
 
@@ -22,9 +23,15 @@ const Navbar = () => {
 
         <div className="nav-bottom">
           <ul className="nav-links">
-            <li href='#about'>Her-Journey</li>
-            <li href='#gallery'>Gallery</li>
-            <li href='#services'>Counsel & Care</li>
+            <li>            
+               <Link to="about" smooth={true} duration={500} className="nav-link">Her-Journey</Link>
+            </li>
+            <li> 
+            <Link to="services" smooth={true} duration={500} className="nav-link">Counsel&Care</Link>
+            </li>
+            <li>
+            <Link to="gallery" smooth={true} duration={500} className="nav-link">Gallery</Link>
+            </li>
           </ul>
         </div>
       </div>
